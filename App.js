@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import DemoAddRemoveBox from './demos/add-remove-box';
+import RandomBoxes from './src/demos/RandomBoxes';
 
 export default class App extends Component<{}> {
   render() {
-    return <DemoAddRemoveBox />;
+    return <RandomBoxes />;
   }
 }
